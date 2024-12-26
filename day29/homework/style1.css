@@ -1,0 +1,34 @@
+body{
+    background-image: url(./assets/background.png);
+}
+@font-face {
+    font-family: "font1";
+    src: url(./assets/fonts/3d_unicode.ttf);
+}
+.font1 {
+    font-family: "font1";
+}
+p {
+    font-size: larger;
+    font-weight: 500;
+}
+.footer {
+    margin-top: 150px;
+    padding-left: 20px;
+    font-size: larger;
+    color: solid black;
+
+}
+.back-head {
+    margin-left: 950px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 800;
+    color:  black;
+    cursor: pointer;
+}
+.head {
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}

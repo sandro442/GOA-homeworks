@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "unicode";
+    src: url(./assets/fonts/3d_unicode.ttf);
+}
+.unicode {
+    font-family: "unicode";
+}
+body {
+    background-color: cadetblue;
+}
