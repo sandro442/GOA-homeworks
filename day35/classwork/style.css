@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/Jigoro_Kano_and_Kyuzo_Mifune_\(restoration\).jpg),url(./assets/judo1.jfif),url(./assets/judo2.jfif);
+    
+    background-size: 50%, 50%, cover;
+    background-position: left, right, top;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-container {
+    background-image: url(./assets/images.jfif);
+    background-size: cover;
+    color: tomato;
+    background-position: -20px 20px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 50%;
+    border: 4px solid black;
+
+   
+ 
+ 
+
+ 
+}
