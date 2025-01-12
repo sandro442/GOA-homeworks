@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: azure;
+}
+
+body {
+    background-image: url(./assets/images/მოლუსკები.jpg);
+    background-repeat: repeat;
+
+}
+
+.card {
+    background-color: rgb(172, 241, 103);
+
+    width: 330px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+
+
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+body {
+    background-image: url(./assets/images/ვეშაპი.jfif);
+    background-repeat: repeat;
+    background-position: cover;
+
+}
+
+.card {
+    width: 250px;
+    background-color: rgb(4, 229, 245);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+
+}
