@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jersey+15&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(102, 255, 0);
+    background-image: url(./assets/images/Diversity_of_plants_\(Streptophyta\)_version_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    margin-left: 40px;
+    list-style-type: georgian;
+    list-style-position: outside;
+    list-style-image: url(./assets/icons/thumb_up_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg);
+
+}
+
+.div:hover{
+    color: purple;
+
+}
+
+
+.div{
+    color: rgba(221, 236, 20, 0.938);
+    text-decoration: line-through;
+    cursor: pointer;
+
+}
+#home:visited{
+    color: rgb(0, 255, 255);
+}
+
+#contact:active{
+    color:blueviolet;
+}
+
+#about:active{
+    color:rgb(112, 165, 42);
+}
+
+a{
+    text-decoration: none ;
+}

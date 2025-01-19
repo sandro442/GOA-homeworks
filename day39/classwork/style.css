@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jersey+15&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url(./assets/images/images.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    margin-left: 40px;
+    list-style-type: georgian;
+    list-style-position: outside;
+    list-style-image: url(./assets/icons/star_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24\ \(1\).svg);
+
+}
+
+#home:visited{
+    color: burlywood;
+}
+
+#contact:active{
+    color: chocolate;
+}
+
+#about:hover{
+    color: blue;
+}
+
+a{
+    text-decoration: none ;
+}
+
+.div:hover{
+    color: blue;
+
+}
+
+.div{
+    color: rgba(236, 20, 49, 0.938);
+    text-decoration: line-through;
+    cursor: pointer;
+
+}

@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jersey+15&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(8, 255, 8);
+    background-image: url(./assets/images/სეტერი.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    margin-left: 40px;
+    list-style-type: georgian;
+    list-style-position: outside;
+    list-style-image: url(./assets/icons/borg_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg);
+
+}
+
+.div:hover{
+    color: blue;
+
+}
+
+
+.div{
+    color: rgba(236, 20, 49, 0.938);
+    text-decoration: line-through;
+    cursor: pointer;
+
+}
+#home:visited{
+    color: aqua;
+}
+
+#contact:active{
+    color:blueviolet;
+}
+
+#about:hover{
+    color:brown;
+}
+
+a{
+    text-decoration: none ;
+}
