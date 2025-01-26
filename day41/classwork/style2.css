@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300;
+
+}
+
+th {
+    text-align: start;
+}
+
+
+
+tr:nth-child(even) {
+    background-color:rgb(116, 247, 138);
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color:  rgb(35, 209, 64);
+    color: white;
+}
+
+tr:nth-child(1n) {
+    border-bottom: 1px solid black;
+    
+}
+
+tr:first-child{
+    background-color:  rgb(18, 187, 243);
+    color: rgba(1, 22, 27, 0.677);
+}
+
+tr:not(:first-child):hover{
+    background-color: rgb(131, 209, 13);
+
+}
+
+input[type="text"]{
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px 15px;
+    color: #1b1b1b;
+    background-image: linear-gradient(to top white rgba(255, 255, 255, 0.747));
+
+}

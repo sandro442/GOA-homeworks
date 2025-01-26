@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./assets/images/Feigenstrauch.JPG);
+    background-repeat: no-repeat;
+   background-size: cover;
+   font-family: cursive;
+}
+#link:link{
+    color: black;
+}
+
+#visited:visited{
+    color: aquamarine;
+}
+
+#active:active{
+    color: rgb(181, 255, 7)
+}
+
+#hover:hover{
+    color: rgb(0, 225, 0);
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
