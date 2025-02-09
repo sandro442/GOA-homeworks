@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    justify-content: start;
+}
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
