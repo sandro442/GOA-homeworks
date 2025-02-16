@@ -1,0 +1,17 @@
+.parent{
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.parent1{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}

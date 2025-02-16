@@ -1,0 +1,48 @@
+.parent{
+    height: 500px;
+    width: 450px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+
+}
+
+.parent1{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 480px;
+    gap: 5px;
+
+}
+.parent2{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 480px;
+    gap: 5px;
+
+}
+
+.parent3{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 480px;
+    gap: 5px;
+
+}
+.parent4{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 480px;
+    gap: 5px;
+
+}
